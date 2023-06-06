@@ -1,0 +1,13 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://serviceregistry:8761/eureka
+
+football:
+  api:
+    uri: https://apiv3.apifootball.com/
+    key: OWJiNjYxODRlMGM4MTQ1Mzg0ZmQyY2MwZjdiOTE0YWRhNTdiNGU4ZmQyZTRkNmQ1ODZhZGNjMjdjMjU3YTk3OA==
